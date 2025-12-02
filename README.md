@@ -1,4 +1,5 @@
 # STDFNet
+We propose a Spatio-temporal Template based Discriminative Fusion Network (STDFNet) that dynamically suppresses background noise and enhances target features by leveraging the correlations between dynamic target/background features and search region features via designed modules (DMFM, TGFM, CAFM, MSIP) for robust RGBT tracking. 
 ![image](https://github.com/2602577203/STDFNet/blob/master/pipeline1.png)
 
 # Demonstration
