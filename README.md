@@ -3,7 +3,7 @@ We propose a Spatio-temporal Template based Discriminative Fusion Network (STDFN
 ![image](https://github.com/2602577203/STDFNet/blob/master/pipeline1.png)
 
 # Demonstration
-
+As shown in the figures, our method can still ensure accurate tracking when confronted with complex background interference.
 <!-- 第一行：3张图横向排列 -->
 <p align="center">
   <img src="https://github.com/2602577203/STDFNet/blob/master/images/1r.gif" alt="1r" width="270" hspace="15">
