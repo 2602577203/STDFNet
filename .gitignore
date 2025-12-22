@@ -133,3 +133,5 @@ Dockerfile~
 *.bak
 *.swp
 *.swo
+
+temp-git-old/
