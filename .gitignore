@@ -1,0 +1,135 @@
+# ========================= Python 通用忽略项 =========================
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python编译文件
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv/
+env3/
+conda-env/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========================= PyTorch 特定忽略项 =========================
+# 模型文件（PyTorch保存的模型权重/检查点）
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.bin
+model/
+models/
+checkpoint/
+checkpoints/
+best_model/
+saved_models/
+
+# PyTorch分布式训练/编译相关
+*.ptl
+*.torch
+torch_save/
+torch_script/
+distributed/
+apex/  # 如果使用NVIDIA Apex混合精度训练
+
+# ONNX导出文件（PyTorch转ONNX）
+*.onnx
+
+# TensorBoard日志（PyTorch内置TensorBoard）
+runs/
+tensorboard/
+logs/
+
+# ========================= 数据与缓存 =========================
+# 数据集（避免提交大文件）
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.txt
+*.jsonl
+*.zip
+*.tar.gz
+*.rar
+
+# 缓存文件
+*.cache
+*.tmp
+*.temp
+.DS_Store  # MacOS系统文件
+Thumbs.db  # Windows系统文件
+
+# ========================= 开发工具与环境 =========================
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*_checkpoint.ipynb
+*.ipynb.out
+
+# Docker
+Dockerfile~
+.dockerignore
+*.dockerfile
+
+# Git相关
+.gitattributes
+.gitignore~
+
+# 操作系统相关
+*.log
+*.err
+*.backup
+*.bak
+*.swp
+*.swo
